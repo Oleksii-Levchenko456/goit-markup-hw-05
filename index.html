@@ -452,49 +452,80 @@
             </li>
           </ul>
         </div>
-        <div>
+        <div class="div-subscribe">
           <p class="header-social-media">Subscribe</p>
           <input type="email" placeholder="E-mail" class="input-email" />
-          <button class="footer-button">Subscribe</button>
+          <button class="footer-button">
+            Subscribe
+            <svg width="24" height="24">
+              <use href="./images/icons.svg#icon-Frame-3"></use>
+            </svg>
+          </button>
         </div>
         <!-- </div> -->
       </div>
     </footer>
     <div class="backdrop is-open">
       <div class="modal">
+        <button class="button-close">
+          <svg class="" height="8" width="8">
+            <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
         <p>Leave your contacts and we will call you back</p>
         <form action="">
-          <div class="div-item-in-form">
+          <div>
             <label for="">
               Name
-              <input type="text" />
+              <div class="div-input-form">
+                <svg width="18" height="24">
+                  <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+                </svg>
+                <input type="text" class="" />
+              </div>
             </label>
           </div>
           <div>
             <label for="">
               Phone
-              <input type="number" />
+              <div>
+                <input type="number" class="" />
+                <svg width="18" height="24">
+                  <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
+                </svg>
+              </div>
             </label>
           </div>
           <div>
             <label for="">
               Email
-              <input type="email" />
+              <div>
+                <input type="email" class="" />
+                <svg width="18" height="24">
+                  <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
+                </svg>
+              </div>
             </label>
           </div>
           <div>
             <label for="">
               Comment
-              <textarea name="" id=""></textarea>
+              <textarea
+                name=""
+                id=""
+                class="textarea-form"
+                placeholder="Text input"
+              ></textarea>
             </label>
           </div>
           <div>
             <label for="">
-              I accept the terms and conditions of the Privacy Policy
               <input type="checkbox" />
+              I accept the terms and conditions of the Privacy Policy
             </label>
           </div>
         </form>
+        <button>Send</button>
       </div>
     </div>
   </body>

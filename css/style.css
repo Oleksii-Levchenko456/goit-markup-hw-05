@@ -409,12 +409,29 @@ a {
 .background-icon-footer:focus {
   background-color: #31d0aa;
 }
+.button-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+
+  border-radius: 50%;
+  border-color: #e7e9fc;
+}
+.div-subscribe {
+  margin-left: auto;
+}
 .input-email {
   border: 1px solid #fff;
   border-radius: 4px;
   width: 264px;
   height: 40px;
   background: transparent;
+}
+.input-email::placeholder {
+  padding: 8px 16px;
+  font: 400 12px / 2 "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+  color: #fff;
 }
 .footer-button {
   border: none;
@@ -424,6 +441,11 @@ a {
   color: #fff;
 
   margin-left: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
 }
 .backdrop {
   position: fixed;
@@ -470,5 +492,37 @@ a {
 form {
   margin: 0 24px;
 }
-.div-item-in-form {
+label {
+  font: 400 12px / 1.16667 "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+.modal p {
+  font: 500 16px / 1.5 "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+
+  margin: 72px 24px 16px;
+}
+.div-input-form {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+.div-input-form input {
+  margin-left: 38px;
+}
+.textarea-form {
+  font: 400 12px / 1.16667 "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  width: 360px;
+  height: 120px;
+}
+:placeholder {
+  color: rgba(46, 47, 66, 0.4);
 }
