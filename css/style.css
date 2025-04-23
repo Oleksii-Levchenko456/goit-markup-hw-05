@@ -420,12 +420,21 @@ a {
 .div-subscribe {
   margin-left: auto;
 }
+.div-subscribe form {
+  display: flex;
+  gap: 24px;
+}
 .input-email {
   border: 1px solid #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   width: 264px;
   height: 40px;
-  background: transparent;
+  background-color: transparent;
+
+  color: #ffffff;
+
+  padding-left: 16px;
 }
 .input-email::placeholder {
   padding: 8px 16px;
@@ -434,13 +443,14 @@ a {
   color: #fff;
 }
 .footer-button {
+  min-width: 165px;
+  height: 40px;
   border: none;
   border-radius: 4px;
-  padding: 8px 24px;
   background: #4d5ae5;
   color: #fff;
 
-  margin-left: 24px;
+  cursor: pointer;
 
   display: flex;
   align-items: center;
@@ -488,9 +498,6 @@ a {
 }
 .backdrop:not(.is-open) .modal {
   transform: translate(-50%, -50%) scale(1.5);
-}
-form {
-  margin: 0 24px;
 }
 label {
   font: 400 12px / 1.16667 "Roboto", sans-serif;
