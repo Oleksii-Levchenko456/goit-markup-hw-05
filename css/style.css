@@ -420,7 +420,7 @@ a {
 .div-subscribe {
   margin-left: auto;
 }
-.div-subscribe form {
+.subscribe-form {
   display: flex;
   gap: 24px;
 }
@@ -430,6 +430,8 @@ a {
   border-radius: 4px;
   width: 264px;
   height: 40px;
+  line-height: 2;
+  letter-spacing: 0.04em;
   background-color: transparent;
 
   color: #ffffff;
@@ -443,6 +445,9 @@ a {
   color: #fff;
 }
 .footer-button {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   min-width: 165px;
   height: 40px;
   border: none;
@@ -455,7 +460,9 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
+}
+.footer-svg {
+  margin-left: 16px;
 }
 .backdrop {
   position: fixed;
