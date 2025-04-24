@@ -593,14 +593,44 @@ a {
   fill: #4d5ae5;
 }
 .textarea-form {
-  font: 400 12px / 1.16667 "Roboto", sans-serif;
+  width: 100%;
+  font-size: 12px;
   letter-spacing: 0.04em;
+  line-height: 1.17;
+  color: rgba(46, 47, 66, 0.4);
+  background-color: transparent;
 
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
+  outline: transparent;
   width: 360px;
   height: 120px;
+
+  resize: none;
+  padding: 8px 16px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.textarea-form:focus {
+  border-color: #4d5ae5;
 }
 :placeholder {
   color: rgba(46, 47, 66, 0.4);
+}
+.checkbox-div {
+  margin-bottom: 24px;
+}
+.label-style {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+.logo-span-label {
+  height: 16px;
+  width: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
