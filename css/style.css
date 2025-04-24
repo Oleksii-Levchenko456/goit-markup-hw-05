@@ -551,6 +551,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 16px;
 }
 .div-input-modal {
   margin-bottom: 8px;
@@ -575,6 +576,9 @@ a {
 }
 .input-modal:focus {
   border-color: #4d5ae5;
+}
+.div-input-form input:focus + svg {
+  fill: #4d5ae5;
 }
 .icon-in-input {
   position: absolute;
