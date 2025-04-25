@@ -107,8 +107,6 @@ p {
 }
 .list-section-two {
   display: flex;
-  width: 1148px;
-  height: 104px;
   gap: 24px;
 }
 .list-item-section-two {
